@@ -238,6 +238,9 @@ div[class^="popoutContainer__"]:has(div[class^="roleIconContainer__"]) button {
 }
 
 /* Disable retarded and superflous friendslist to get space back */
-div[class^="container_b17982 theme-dark images-dark"] {
+/* div[class^="container_b17982 theme-dark images-dark"] {
   display: none;
+} */
+.container_b17982[style$="--custom-friends-sidebar-width: 64px;"] {
+    display: none;
 }
