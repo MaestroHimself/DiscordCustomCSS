@@ -222,9 +222,9 @@ div[class^="emojiSection_"] {
   + div[class^="guildSection_"]
   { display: none }
 }
-
-div[class^="reactionTooltip_"] > div:has(div[class^="reactionEmojiDetailsClickable_"]) {
-  display: none;
+/* Disable Hover Reactiontooltio */
+div[class^="buttonContainer_c19a55"]{
+display: none;
 }
 
 /* Super reaction upsell */
