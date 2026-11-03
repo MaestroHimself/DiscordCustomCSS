@@ -246,5 +246,5 @@ div[class^="popoutContainer__"]:has(div[class^="roleIconContainer__"]) button {
 }
 /* Disable Server-List Scrollbar */
 .tree_ef3116 .scroller_ef3116 {
-    scrollbar-width: 0 !important;
+    display: none !important;
 }
