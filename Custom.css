@@ -244,7 +244,3 @@ div[class^="popoutContainer__"]:has(div[class^="roleIconContainer__"]) button {
 .container_b17982[style$="--custom-friends-sidebar-width: 64px;"] {
     display: none;
 }
-/* Disable Server-List Scrollbar */
-.scroller_ef3116 {
-    width: 0 !important;
-}
